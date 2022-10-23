@@ -1,0 +1,150 @@
+/* First setup*/
+.tw{color:white}
+.mainText{font-size: 48px; font-weight: 900; color: #F9FAF8;}
+body{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;font-size: 16px;
+}
+
+.header{
+    display: flex;
+    height: 10vh;
+    padding: 0 15%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header__link{
+    font-size: 18px;
+    padding: 10px;
+    color: #E5E7EB;
+    
+}
+
+.hero{
+    background-color: #1F2937;  
+    display: flex;
+    padding:0 15%;
+    padding-bottom: 10%;
+    
+}
+
+.hero__text{
+    display:  flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.hero__text__title{
+    color: #F9FAF8;
+    font-size: 48px; 
+    font-weight: 900;  
+}
+
+.hero__text__sub{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero__img{
+    background: #949598;
+    color: white;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.cta{padding: 5% 0; padding-top: 3%;}
+
+button{
+    background-color: #3882F6;
+    padding: 2%;
+    border-radius: 5px;
+    width: 20%;
+    color:white;
+}
+
+/* Main body */
+
+.information{
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.subtext{
+    display:flex;
+    justify-content: space-between;
+}
+
+.body{padding-left: 20%; padding-right:20%; padding-bottom: 100px;}
+.box{
+    border: 5px solid #3882F6;
+    width: 95%;
+    height: 0;
+    padding-top: 100%;
+    border-radius: 25px;
+    align-self: center;
+}
+
+.boxText{padding: 10px; text-align: center; color: black}
+
+.container{max-width: 20%;}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 23%;
+}
+
+.quote__text{
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+    font-weight: light;
+}
+
+.quote__quote{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.ctoaction{
+    padding: 100px 15%;
+}
+
+.contain{
+    background-color: #3882F6;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.callto__text{
+    color: white;
+}
+.btndiv{
+    width: 50%;
+    top: 50%;
+    margin: 0%;
+    align-self: right;
+}
+.button{
+    border: 2px solid white;
+    width: 100px;
+    font-size: medium;
+    font-weight: 700;
+    transform: translateY(100%);
+    
+}
